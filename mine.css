@@ -1,0 +1,138 @@
+/*資管108 B036060008 楊博名的個人網頁*/
+
+html, body{
+  height: 100%;
+  width: 100%;/*?*/
+}
+
+.nav ul{
+  display: inline-block;/*同一行*/
+}
+
+.nav li {
+  display: inline-block;/*同一行*/
+}
+
+.nav a {
+  color: #5a5a5a;/*字體顏色*/
+  font-size: 25px;/*字體大小*/
+  font-weight: bold;/*字體：厚*/
+  padding: 14px 20px;/*留白*/
+  text-transform: uppercase;/*大寫*/
+}
+
+.nav .pull-right{
+  margin-top: 1%;
+  display: block;
+}
+
+.nav img:hover{/*縮圖變化*/
+  transform:rotate(10deg) scale(1.2,1.2);/*旋轉10度*//*長寬放大1.2倍*/
+}
+
+.nav img{
+  -moz-transition: all 1s ;/*firefox轉場時間*/
+  -ms-transform: all 1s;/*IE*/
+  transition: all 1s;/*轉場時間*/
+}
+
+.jumbotron{
+  background-image:url("IMGP1895a.jpg");
+  background-repeat: no-repeat;/*背景不重複*/
+  background-size: cover;/*放大到邊界*/
+  height: 100%;
+}
+
+.jumbotron2{
+  background-image:url("IMGP1899a.jpg");
+  height: 100%;
+  background-repeat: no-repeat;/*背景不重複*/
+  background-size: cover;/*放大到邊界*/
+}
+
+.jumbotron3 {
+  background-image:url("IMGP1912a.jpg");
+  height: 100%;
+  background-repeat: no-repeat;/*背景不重複*/
+  background-size: cover;/*放大到邊界*/
+}
+
+.jumbotron .container, .jumbotron2 .container, .jumbotron3 .container{
+  position: relative;/*相對位置*/
+}
+
+.jumbotron h1, .jumbotron h2, .jumbotron2 li, .jumbotron3 h1, .jumbotron3 p{
+  font-family: 'Shift', sans-serif;/*字體樣式*/
+  font-weight: bold;/*字體：厚*/
+}
+
+.jumbotron h1{
+  color: #444444;/*字體顏色*/
+  font-size: 60px;/*字體大小*/
+  font-family: "Shift", sans-serif;
+  font-weight: bold;
+  margin-left:-2%;/*左方邊界*/
+  margin-top: 15%;/*上方邊界*/
+}
+
+.jumbotron h2{
+  color: #5a5a5a;
+  font-size: 25px;
+  margin-left:1%;
+  margin-top: 0px;
+}
+
+.jumbotron2 li{
+  color: #fff;
+  font-size: 50px;
+  margin-left: 5%;
+  padding-top: 2%;/*上方留白*/
+  list-style-type:none;
+}
+
+.jumbotron3 h1{
+  color: #fff;
+  font-size: 40px;
+  margin-left: -3%;
+  margin-top: 20%;
+}
+
+.jumbotron3 p{
+  color: #fff;
+  font-size: 20px;
+  margin-left: 53%;
+}
+
+.resume{
+  background-color: #dfdfdf;/*背景顏色*/
+}
+
+.resume h1, .resume h3{
+  text-align: center;/*文字置中*/
+}
+
+.resume h4{
+  margin-left: 300px;
+}
+
+.resume ul{
+  margin-left: 300px;
+  list-style-type:disc;/*disc: 前面有小圓點*/
+}
+
+.photos {
+  background-color: #dfdfdf;
+  border-bottom: 1px solid #dbdbdb;/*底部邊界之寬度與樣式*/
+}
+
+.thumbnail:hover{/*縮圖變化*/
+  transform:scale(1.2,1.2);/*長寬放大1.2倍*/
+}
+
+.thumbnail {
+  -moz-transition: all 1s ;/*firefox轉場時間*/
+  -ms-transform: all 1s;/*IE*/
+  transition: all 1s;/*轉場時間*/
+  margin-top: 30px;
+  border:0;
+}
