@@ -136,3 +136,20 @@ html, body{
   margin-top: 30px;
   border:0;
 }
+
+.side_project{
+  color: #1695A3;/*字體顏色*/
+  font-size: 50px;/*字體大小*/
+  font-family: "Shift", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  /*margin-top: 10%;*/
+  padding-top: 10%;
+  padding-bottom: 23%;
+  background-color: #F3FFE2;
+}
+
+.side_project ul {
+  display: inline-block;
+  color: #1695A3;
+}
