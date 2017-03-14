@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登錄頁面</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="assignment5.css">
+</head>
+<body>
+    <form  id="form" action="assignment5.php" method="POST" class="container"> 
+    	<h1>Register</h1>
+        <div class="test1">
+	        <div> 
+	            <label for="name">Username</label><br>
+	            <input id="name" name="name" class="input" type="text" placeholder="AndrewHowCool123" />
+	        </div>
+
+	        <div> 
+	            <label for="email">Email</label><br>
+	            <input id="email" name="email" class="input" type="email" placeholder="andrewhowcool@gmail.com"/> 
+	        </div>
+
+	        <div> 
+	            <label for="phone">Phone number</label><br>
+	            <input id="phone" name="phone" class="input" type="text" placeholder="0987878787"/>
+	        </div>         	
+        </div>
+
+        <div class="test2">
+	        <div> 
+	            <label for="birth">Birth date</label><br>
+	            <input id="birth" name="birth" class="input" type="text" placeholder="1996-05-05"/>
+	        </div>               
+
+	        <div> 
+	            <label for="password">Password</label><br>
+	            <input id="password" name="password" class="input" type="password" placeholder="eg. X8df!90EO"/>
+	        </div>
+
+	        <div> 
+	            <label for="confirm">Confirm your password</label><br>
+	            <input id="confirm" name="confirm" class="input" type="password" placeholder="eg. X8df!90EO"/>
+	        </div>        	
+        </div>        
+
+        <div> 
+			<input id="submit" type="submit" class="btn btn-success" value="Sign up"/> 
+		</div>
+    </form>
+</body>
+</html>
