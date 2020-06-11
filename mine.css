@@ -107,6 +107,10 @@ html, body{
   background-color: #dfdfdf;/*背景顏色*/
 }
 
+#resume_center{
+  text-align: center;/*文字置中*/
+}
+
 .resume h1{
   text-align: center;/*文字置中*/
 }
